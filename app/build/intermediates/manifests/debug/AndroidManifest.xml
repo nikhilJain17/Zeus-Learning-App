@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hello.learning.zeuslearningapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.hello.learning.zeuslearningapp.WelcomeMenu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hello.learning.zeuslearningapp.ChooseTopic"
+            android:label="@string/title_activity_choose_topic" >
+        </activity>
+        <activity
+            android:name="com.hello.learning.zeuslearningapp.NumberSystems"
+            android:label="@string/title_activity_number_systems" >
+        </activity>
+        <activity
+            android:name="com.hello.learning.zeuslearningapp.NumberSystemsLecture"
+            android:label="@string/title_activity_number_systems_lecture" >
+        </activity>
+        <activity
+            android:name="com.hello.learning.zeuslearningapp.NumberSystemsQuiz"
+            android:label="@string/title_activity_number_systems_quiz" >
+        </activity>
+        <activity
+            android:name="com.hello.learning.zeuslearningapp.DigitalLogicBasics"
+            android:label="@string/title_activity_digital_logic_basics" >
+        </activity>
+        <activity
+            android:name="com.hello.learning.zeuslearningapp.DigitalLogicBasicsLecture"
+            android:label="@string/title_activity_digital_logic_basics_lecture" >
+        </activity>
+        <activity
+            android:name="com.hello.learning.zeuslearningapp.DigitalLogicBasicsQuiz"
+            android:label="@string/title_activity_digital_logic_basics_quiz" >
+        </activity>
+        <activity
+            android:name="com.hello.learning.zeuslearningapp.SetupAccount"
+            android:label="@string/title_activity_setup_account" >
+        </activity>
+    </application>
+
+</manifest>

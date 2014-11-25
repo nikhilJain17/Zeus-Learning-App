@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hello.learning.zeuslearningapp" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".WelcomeMenu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChooseTopic"
+            android:label="@string/title_activity_choose_topic" >
+        </activity>
+        <activity
+            android:name=".NumberSystems"
+            android:label="@string/title_activity_number_systems" >
+        </activity>
+        <activity
+            android:name=".NumberSystemsLecture"
+            android:label="@string/title_activity_number_systems_lecture" >
+        </activity>
+        <activity
+            android:name=".NumberSystemsQuiz"
+            android:label="@string/title_activity_number_systems_quiz" >
+        </activity>
+        <activity
+            android:name=".DigitalLogicBasics"
+            android:label="@string/title_activity_digital_logic_basics" >
+        </activity>
+        <activity
+            android:name=".DigitalLogicBasicsLecture"
+            android:label="@string/title_activity_digital_logic_basics_lecture" >
+        </activity>
+        <activity
+            android:name=".DigitalLogicBasicsQuiz"
+            android:label="@string/title_activity_digital_logic_basics_quiz" >
+        </activity>
+        <activity
+            android:name=".SetupAccount"
+            android:label="@string/title_activity_setup_account" >
+        </activity>
+    </application>
+
+</manifest>
